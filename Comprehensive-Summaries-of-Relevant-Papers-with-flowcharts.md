@@ -46,7 +46,7 @@ User Input (Emotional Description): The chatbot begins by prompting the user to 
 
 **Model Evaluation:** The performance of the fine-tuned model is assessed using evaluation metrics. It achieves an impressive 94.96% accuracy and significantly outperforms a baseline keyword-based classifier implemented in the previous version of the chatbot.
 
-![latex_flowcharts (2).jpg](./latex_flowcharts_(2).jpg)
+![latex_flowcharts (2).jpg](./latex_flowcharts(2).jpg)
 
 The model was pre-trained on an existing English emotion dataset, then fine-tuned on the SAT data. This achieved 94.96% accuracy on the SAT test set, significantly improving over a baseline keyword-based classifier.
 
@@ -72,7 +72,7 @@ To generate empathetic responses it follows the following steps:
 
 For Mandarin, Chinese GPT-2 was trained with reinforcement learning to perform empathetic rewriting. Supervised fine-tuning was also explored. Responses were manually screened for any inappropriate content.
 
-![latex_flowcharts (3).jpg](./latex_flowcharts_(3).jpg)
+![latex_flowcharts (3).jpg](./latex_flowcharts(3).jpg)
 
 ## Conversation Flow and User Experience
 
@@ -84,7 +84,7 @@ All five personas navigate the same flowchart during conversations, but each per
 
 The primary objective of the chatbot is to recommend the most appropriate SAT protocols. As users progress through the conversation, a list of protocol suggestions is generated. The content of this list and the timing of its disclosure depend on the user's responses and engagement during the conversation.
 
-![Lisa_paper.cc6020a5 (1)-07.jpg](./Lisa_paper.cc6020a5_(1)-07.jpg)
+![Lisa_paper.cc6020a5 (1)-07.jpg](./Lisa_paper.jpg)
 
 To enhance user engagement, users can select a persona for the chatbot, each accompanied by a unique avatar. The available personas include Kai, who uses the full dataset, as well as personas representing younger and older individuals, both male and female:
 

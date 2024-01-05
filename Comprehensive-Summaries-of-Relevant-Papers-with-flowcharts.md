@@ -30,7 +30,7 @@ The translation process for converting English to Mandarin involved the followin
 2. **Dataset Translation:** To streamline the translation process, publicly available machine translation tools were employed, followed by post-editing steps (v1 and v2) to enhance translation quality.
 3. **Evaluation Metrics:** The quality of translations was assessed using reference-free sentence fluency metrics, demonstrating improvements with post-editing.
 
-![latex_flowcharts.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e3ef02-144c-42b5-b5eb-45b30100b387/0650dd27-7aa1-4b40-ba9c-61e054d0ca8f/latex_flowcharts.jpg)
+![latex_flowcharts.jpg](./latex_flowcharts.jpg)
 
 ## Emotion Recognition
 
@@ -46,7 +46,7 @@ User Input (Emotional Description): The chatbot begins by prompting the user to 
 
 **Model Evaluation:** The performance of the fine-tuned model is assessed using evaluation metrics. It achieves an impressive 94.96% accuracy and significantly outperforms a baseline keyword-based classifier implemented in the previous version of the chatbot.
 
-![latex_flowcharts (2).jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e3ef02-144c-42b5-b5eb-45b30100b387/3ec0eb9e-fc64-4672-873e-1f3edc1a3371/latex_flowcharts_(2).jpg)
+![latex_flowcharts (2).jpg](./latex_flowcharts_(2).jpg)
 
 The model was pre-trained on an existing English emotion dataset, then fine-tuned on the SAT data. This achieved 94.96% accuracy on the SAT test set, significantly improving over a baseline keyword-based classifier.
 
@@ -72,7 +72,7 @@ To generate empathetic responses it follows the following steps:
 
 For Mandarin, Chinese GPT-2 was trained with reinforcement learning to perform empathetic rewriting. Supervised fine-tuning was also explored. Responses were manually screened for any inappropriate content.
 
-![latex_flowcharts (3).jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e3ef02-144c-42b5-b5eb-45b30100b387/243935ed-5c59-42f1-8b41-d1f7628aadad/latex_flowcharts_(3).jpg)
+![latex_flowcharts (3).jpg](./latex_flowcharts_(3).jpg)
 
 ## Conversation Flow and User Experience
 
@@ -84,7 +84,7 @@ All five personas navigate the same flowchart during conversations, but each per
 
 The primary objective of the chatbot is to recommend the most appropriate SAT protocols. As users progress through the conversation, a list of protocol suggestions is generated. The content of this list and the timing of its disclosure depend on the user's responses and engagement during the conversation.
 
-![Lisa_paper.cc6020a5 (1)-07.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e3ef02-144c-42b5-b5eb-45b30100b387/85edae06-26e8-40d3-84e9-ab77422d0369/Lisa_paper.cc6020a5_(1)-07.jpg)
+![Lisa_paper.cc6020a5 (1)-07.jpg](./Lisa_paper.cc6020a5_(1)-07.jpg)
 
 To enhance user engagement, users can select a persona for the chatbot, each accompanied by a unique avatar. The available personas include Kai, who uses the full dataset, as well as personas representing younger and older individuals, both male and female:
 
